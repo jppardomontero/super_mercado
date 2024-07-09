@@ -98,6 +98,10 @@
                   <button type="submit" class="btn btn-primary">Guardar</button>
                 </div>
               </div>
+              <?php
+              $objCliente = new controladorClientes();
+              $objCliente->ctrlGuardarClientes();
+              ?>
             </form>
           </div>
         </div>
