@@ -63,7 +63,7 @@
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
                     </div>
-                    <select name="genero" id="genero" class="form-control" required>
+                    <select name="sexo" id="sexo" class="form-control" required>
                       <option value="0">Seleccione el genero</option>
                       <option value="Masculino">Masculino</option>
                       <option value="Femenino">Femenino</option>

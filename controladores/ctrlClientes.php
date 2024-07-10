@@ -19,6 +19,7 @@ class controladorClientes {
                           "telefono" =>$_POST['telefono'],
                           "f_nacimiento" => $_POST ['f_nacimiento']);
             $res = modeloClientes::mdlGuardarCliente ($tabla, $data);
+            
             if ($res == 'Ok'){
                 echo '<script>
                         Swal.fire({
@@ -30,7 +31,7 @@ class controladorClientes {
             }else{
                 echo '<script>
                 Swal.fire({
-                    title: "Ohh..!",
+                    title: "'.$res.'..!",
                     text: "Error al guardar los datos del cliente",
                     icon: "error"
                 });
